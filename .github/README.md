@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-marketplace-entitlement-service`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-entitlement-service/v/3.1136.0).
+[`@aws-sdk/client-marketplace-entitlement-service`](https://www.npmjs.com/package/@aws-sdk/client-marketplace-entitlement-service/v/3.1137.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-marketplace-entitlement-service - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-entitlement-service](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-entitlement-service)
-- @aws-sdk/client-marketplace-entitlement-service v3.1136.0 - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-entitlement-service&version=3.1136.0](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-entitlement-service&version=3.1136.0)
+- @aws-sdk/client-marketplace-entitlement-service v3.1137.0 - [https://cloud-sdk-builds.github.io/?sdk=client-marketplace-entitlement-service&version=3.1137.0](https://cloud-sdk-builds.github.io/?sdk=client-marketplace-entitlement-service&version=3.1137.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1136.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1137.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-jpNPXCWVUcSGXJB4qjNMDNaGUsP5i5+/bQ819p1l8y/sMTeVfjK8RsGTrEG3AmfM
+sha384-Xz6ttmh55wOGeN4wQUMCvhgqYokujEpHXb49M0XAHxZ14I8db8y8v7Ra9jb37Erm
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-marketplace-entitlement-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1136.0/index.min.mjs"
+            "@aws-sdk/client-marketplace-entitlement-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1137.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1136.0/index.min.mjs": "sha384-jpNPXCWVUcSGXJB4qjNMDNaGUsP5i5+/bQ819p1l8y/sMTeVfjK8RsGTrEG3AmfM"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1137.0/index.min.mjs": "sha384-Xz6ttmh55wOGeN4wQUMCvhgqYokujEpHXb49M0XAHxZ14I8db8y8v7Ra9jb37Erm"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-marketplace-entitlement-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1136.0/index.min.mjs"
+                        "@aws-sdk/client-marketplace-entitlement-service": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1137.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1136.0/index.min.mjs": "sha384-jpNPXCWVUcSGXJB4qjNMDNaGUsP5i5+/bQ819p1l8y/sMTeVfjK8RsGTrEG3AmfM"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-marketplace-entitlement-service@3.1137.0/index.min.mjs": "sha384-Xz6ttmh55wOGeN4wQUMCvhgqYokujEpHXb49M0XAHxZ14I8db8y8v7Ra9jb37Erm"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1136.0`)
+* Always pin to a specific version (`@3.1137.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-marketplace-entitlement-service/blob/refs/tags/3.1136.0/LICENSE
+https://github.com/cloud-sdk-builds/client-marketplace-entitlement-service/blob/refs/tags/3.1137.0/LICENSE
 ```
 
 ---
